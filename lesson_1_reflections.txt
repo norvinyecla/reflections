@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Using diff on Windows allowed me to compare two files side-by-side. I instantly recognized the bug because I can see the differences easily.
+
+***
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It will allow me to identify changes in the file at any point of time. Doing so will potentially help me in identifying when and where bugs were introduced, if the code suddenly breaks. 
+
+***
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I think that is because some projects need interconnected components (e.g. an Android app or a web app) and it is possible that changes occur across files and thus, are logically grouped together. On the other hand, others treat each file separately because these files are standalone and the changes do not necessarily need to reflect in other files.
+
+***
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows all the commits that occured from the beginning to the present, together with their corresponding unique identifiers. These unique identifiers are then used in git diff to compare any two versions of the repository.
+
+***
+How might using version control make you more confident to make changes that could break something?
+
+Version control allows the developer to code freely, because there is a way to revert to an old, working version of the code. This reversion can be done anytime.
+
+***
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I will use Git on medium- to large-scale applications, esp. on projects I can open up for contributions from others. 
+
