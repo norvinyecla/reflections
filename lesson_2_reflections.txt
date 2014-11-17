@@ -9,3 +9,4 @@ The staging area is the middle ground between the working directory and the repo
 
 ***
 
+
