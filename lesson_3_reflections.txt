@@ -10,8 +10,16 @@ I might want to do that because I might modify just a little bit of the code. Th
 ***
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-Forks are clones of a Github repository that exist in Github. They are linked to the original repository, but you cannot push changes to the original one. 
+Forks are clones of a git repository that exist in Github. They are linked to the original repository, but you cannot push changes to the original one. 
 
-Clones are copies of a Github repository that can exist locally or in Github. Cloning a repository does not affect the original repository.
+Clones are copies of a git repository that can exist locally or in Github. Cloning a repository does not affect the original repository.
 
-Branches are two or more sets of changes that target a repository. They exist independently of each other. A change in branch 1 will not affect branch 2, unless they are merged together. Branches are useful when adding new features or removing bugs, as it makes sure that changes are not done on working/official/production-level code.
+Branches are two or more series of changes that modify a repository. They share a common ancestor. However, they exist independently of each other. A change in branch 1 will not affect branch 2, unless they are merged together. Branches are useful when adding new features or removing bugs, as it makes sure that changes are not done on working/official/production-level code.
+
+***
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It minimizes conflict because you learn the latest changes made to the remote and build code around it.
+
+***
+
