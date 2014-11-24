@@ -6,3 +6,12 @@ I would want to use a remote repository if I want to show my work in public, onl
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 I might want to do that because I might modify just a little bit of the code. That might not require a latest version of the repository.
+
+***
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are clones of a Github repository that exist in Github. They are linked to the original repository, but you cannot push changes to the original one. 
+
+Clones are copies of a Github repository that can exist locally or in Github. Cloning a repository does not affect the original repository.
+
+Branches are two or more sets of changes that target a repository. They exist independently of each other. A change in branch 1 will not affect branch 2, unless they are merged together. Branches are useful when adding new features or removing bugs, as it makes sure that changes are not done on working/official/production-level code.
