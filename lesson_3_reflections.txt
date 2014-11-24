@@ -22,4 +22,6 @@ What is the benefit of having a copy of the last known state of the remote store
 It minimizes conflict because you learn the latest changes made to the remote and build code around it.
 
 ***
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
+Without Git or Github, collaboration can be done using Dropbox or Google Drive. We can also use email or flash disks to share code with collaborators. It would be easier in the case of flash disks simply because no internet connection is required. Otherwise, it will be harder because it is more difficult to track changes in the code.
